@@ -1,0 +1,29 @@
+#Use /itemsreload for changes to take effect
+
+#Should this plugin change the appearance of items?
+enabled: true
+
+
+#Max amount of items that can be be visible as 3D
+max-visible-items: 20
+
+#When enabled, players that have the permission 3ditems.bypass will see items normally
+use-bypass-permission: false
+
+#Item appearances will not be changed in these worlds
+disabled-worlds:
+   - world1
+   - world2
+
+#Smooth animation for when items spawn
+use-smooth-landing: true
+
+#When enabled, items will be luminescent which will prevent items from becoming dark
+luminescent-items: false
+
+#WARNING: This option changes the picking up mechanics of items!!!!!
+#When enabled, players will need to have the following permissions to pick up items:
+# 3ditems.pickup.right  - permission to pickup items by right-clicking them
+# 3ditems.pickup.left   - permission to pickup items by left-clicking them
+# 3ditems.pickup.normal - permission to pickup items normally (standing on them)
+use-manual-pickup: false
